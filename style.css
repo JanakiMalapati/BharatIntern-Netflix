@@ -1,0 +1,425 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.root
+{
+    background-image:radial-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)), url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+}
+.logo
+{
+    width: 14%;
+    margin-top: 20px;
+    color: red;
+}
+.tv
+{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 40%;
+    margin-left: 10px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+.button-signin
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: aliceblue;
+    border: none;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}    
+.button-signin:hover
+{
+    transition: 0.2ms;
+    background-color: rgb(223, 32, 32);
+}
+.navbar
+{
+    padding-top: 1vw;
+    padding-left: 2vw;
+    padding-right: 4vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+   align-items: center;
+}
+            .main
+            {
+                max-width: 100%;
+                height: 90vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .main-heading
+            {
+                font-size: 50px;
+                color: aliceblue;
+                text-align: center;
+                padding: 0px;
+                margin: 0px;
+                font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+            }
+            .p1
+            {
+                text-align: center;
+                color: aliceblue;
+                font-size: 25px;
+                margin: 0px;
+                margin-top: 20px;
+                font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+            }
+            .p2
+            {
+                color: aliceblue;
+                text-align: center;
+                font-size: 20px;
+                margin: 0px;
+                margin-top: 20px;
+                font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif ;
+            }
+            input[type="text"]
+            {
+                height: 50px;
+                width: 360px;
+                padding: 0px;
+                align-items: center;
+                background-color: rgba(0, 0, 0, 0.514);
+                border-width: 0.1px;
+                border-color: rgba(240, 248, 255, 0.507);
+                border-radius: 5px;
+                color:white;
+                font-size: 18px;
+                margin-top: 20px;
+                margin-left: 160px;
+            }
+            .button-getstarted
+            {
+                padding-left: 24px;
+                padding-right: 24px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                background-color: red;
+                color: white;
+                cursor: pointer;
+                margin-left: 8px;
+                border-radius: 5px;
+                margin-top: 20px;
+                font-size: 25px;
+                border: none;
+            }
+            .button-getstarted:hover
+            {
+                transition: 0.2ms;
+                background-color: rgb(223, 32, 32);
+            }
+            .navi
+            {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            select
+            {
+                padding-bottom: 6px;
+                padding-top: 6px;
+                padding-left: 20px;
+                padding-right: 20px;
+                height: 30px;
+                background-color: rgba(0, 0, 0, 0.469);
+                color: white;
+                font-size: 15px;
+                align-items:self-end;
+                margin-right: 20px;
+                border-radius: 5px;
+            }
+            .enjoy
+            {
+                margin-left: 50px;
+                font-size: 50px;
+                color: aliceblue;
+                padding: 0px;
+                width:580px ;
+                margin-top: 60px;
+                margin-bottom: 0px;
+                font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+            }
+            .watch
+            {
+                color: white;
+                font-size: 24px;
+                margin: 0px;
+                width: 580px;
+                margin-top: 16px;
+            }
+            .second
+            {
+                padding-top: 72px;
+                padding-bottom: 72px;
+                display: flex;
+                flex-direction: row;
+                background-color: black;
+            }
+            .third
+            {   
+                padding-bottom: 72px;
+                display: flex;
+                flex-direction: row;
+                background-color: black;
+            }
+            .mobile
+            {
+                margin-top: 40px;
+                width: 600px;
+            }
+            .download
+            {
+                font-size: 50px;
+                color: aliceblue;
+                padding: 0px;
+                width:580px ;
+                margin-top: 180px;
+                margin-bottom: 0px;
+                font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+            }
+            .save
+            {
+                color: white;
+                font-size: 25px;
+                margin: 0px;
+                width: 580px;
+                margin-top: 16px;
+            }
+            .fourth
+            {
+                padding-bottom: 72px;
+                display: flex;
+                flex-direction: row;
+                background-color: black;
+            }
+            .wat{
+                font-size: 50px;
+                color: aliceblue;
+                padding: 0px;
+                margin-left: 50px;
+                width:580px ;
+                margin-top: 180px;
+                margin-bottom: 0px;
+                font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+            }
+            .stream
+            {
+                color: white;
+                font-size: 25px;
+                margin: 0px;
+                width: 580px;
+                margin-top: 16px;
+            }
+            .lap
+            {
+                overflow-clip-margin: content-box;
+                overflow: clip;
+                width: 44%;
+                background-image: url('./images/tv-image.webp');
+                background-size: 65% 240px;
+                object-fit: cover;
+                background-position: 79px 40px;
+                background-repeat: no-repeat;
+                margin-top: 100px;
+                margin-left: 10px;
+                padding: 0px;
+                display: inline-block;
+            }
+            .fifth
+            {
+                padding-bottom: 72px;
+                display: flex;
+                flex-direction: row;
+                background-color: black;
+            }
+            .child
+            {
+                margin-top: 50px;
+                width: 500px;
+                margin-left: 10px;
+            }
+            .kids
+            {
+                font-size: 50px;
+                color: aliceblue;
+                padding: 0px;
+                margin-left: 50px;
+                width:580px ;
+                margin-top: 180px;
+                margin-bottom: 0px;
+                font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+            }
+            .send
+            {
+                color: white;
+                font-size: 25px;
+                margin: 0px;
+                width: 630px;
+                margin-top: 16px;
+            }
+            .sixth
+            {
+                padding-bottom: 72px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                background-color: black;
+            }
+            .que
+            {
+                font-size: 50px;
+                color: aliceblue;
+                padding: 0px;
+                margin-top: 50px;
+                margin-bottom: 20px;
+                text-align: center;
+                align-items: center;
+                font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+            }
+            .one
+            {
+                padding-left: 24px;
+                padding-right: 24px;
+                padding-top: 24px;
+                padding-bottom: 24px;
+                height: 70px;
+                margin-bottom: 10px;
+                border: none;
+                color: white;
+                cursor: pointer;
+                text-align: left;
+                font-size: 25px;
+                background-color: rgb(64, 63, 63);
+                width: 1100px;
+            }
+            .one:hover
+            {
+                transition: 0.3ms;
+                background-color: rgb(98, 97, 97);
+            }
+            .two
+            {
+                padding-left: 24px;
+                padding-right: 24px;
+                padding-top: 24px;
+                padding-bottom: 24px;
+                height: 70px;
+                margin-bottom: 10px;
+                border: none;
+                color: white;
+                cursor: pointer;
+                text-align: left;
+                font-size: 25px;
+                background-color: rgb(64, 63, 63);
+                width: 1100px;
+            }
+            .two:hover
+            {
+                transition: 0.3ms;
+                background-color: rgb(98, 97, 97);
+            }
+            .three
+            {
+                padding-left: 24px;
+                padding-right: 24px;
+                padding-top: 24px;
+                padding-bottom: 24px;
+                height: 70px;
+                margin-bottom: 10px;
+                border: none;
+                color: white;
+                cursor: pointer;
+                text-align: left;
+                font-size: 25px;
+                background-color: rgb(64, 63, 63);
+                width: 1100px;
+            }
+            .three:hover
+            {
+                transition: 0.3ms;
+                background-color: rgb(98, 97, 97);
+            }
+            .four
+            {
+                padding-left: 24px;
+                padding-right: 24px;
+                padding-top: 24px;
+                padding-bottom: 24px;
+                height: 70px;
+                margin-bottom: 10px;
+                border: none;
+                color: white;
+                cursor: pointer;
+                text-align: left;
+                font-size: 25px;
+                background-color: rgb(64, 63, 63);
+                width: 1100px;
+            }
+            .four:hover
+            {
+                transition: 0.3ms;
+                background-color: rgb(98, 97, 97);
+            }
+            .five
+            {
+                padding-left: 24px;
+                padding-right: 24px;
+                padding-top: 24px;
+                padding-bottom: 24px;
+                height: 70px;
+                margin-bottom: 10px;
+                border: none;
+                color: white;
+                cursor: pointer;
+                text-align: left;
+                font-size: 25px;
+                background-color: rgb(64, 63, 63);
+                width: 1100px;
+            }
+            .five:hover
+            {
+                transition: 0.3ms;
+                background-color: rgb(98, 97, 97);
+            }
+            .six
+            {
+                padding-left: 24px;
+                padding-right: 24px;
+                padding-top: 24px;
+                padding-bottom: 24px;
+                height: 70px;
+                margin-bottom: 10px;
+                border: none;
+                color: white;
+                cursor: pointer;
+                text-align: left;
+                font-size: 25px;
+                background-color: rgb(64, 63, 63);
+                width: 1100px;
+            }
+            .six:hover
+            {
+                transition: 0.3ms;
+                background-color: rgb(98, 97, 97);
+            }
